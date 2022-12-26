@@ -53,3 +53,15 @@ In the current research work, a Machine Learning-based approach will be presente
 * There are 12 numerical columns and rest are (14) categorical columns.
 
 ## Data Cleaning
+1. First I dropped the `id` column.
+2. Changed the column name to make it understandable.
+![image](https://user-images.githubusercontent.com/98649231/209496120-ced9096d-704f-4111-b06c-522cb0c49c10.png)
+3. Changed the data type of `specific_gravity`, `albumin`, `sugar` to 'object'.
+4. Changed the data type of `packed_cell_volume`, `white_blood_cell_count`, `red_blood_cell_count` to numeric.
+5. Checked the unique values of the categorical columns.
+    * There were some incorrect values like '\tno', '\tyes', ' yes', '\tno', 'ckd\t', 'notckd'.
+    * So I corrected them.
+6. Mapped the target column `class` --> {'ckd' : 0, 'notckd' : 1}
+    * 0 --> chronic kidney, 1 -- > not a chronic kidney
+
+## EDA
