@@ -55,7 +55,7 @@ In the current research work, a Machine Learning-based approach will be presente
 ## Data Cleaning
 1. First I dropped the `id` column.
 2. Changed the column name to make it understandable.
-![image](https://user-images.githubusercontent.com/98649231/209496120-ced9096d-704f-4111-b06c-522cb0c49c10.png)
+![image](https://user-images.githubusercontent.com/98649231/209496218-04c30eb9-bc08-4a6c-b25c-4d2e831ca821.png)
 3. Changed the data type of `specific_gravity`, `albumin`, `sugar` to 'object'.
 4. Changed the data type of `packed_cell_volume`, `white_blood_cell_count`, `red_blood_cell_count` to numeric.
 5. Checked the unique values of the categorical columns.
