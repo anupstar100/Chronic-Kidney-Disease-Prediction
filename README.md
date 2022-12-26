@@ -48,3 +48,8 @@ In the current research work, a Machine Learning-based approach will be presente
   23. pe --> Pedal Edema (nominal) - [yes, no]
   24. ane --> Anemia (nominal) - [yes, no]
   25. class --> Class (nominal) - [ckd, notckd]
+
+* There are 400 rows and 26 columns.
+* There are 12 numerical columns and rest are (14) categorical columns.
+
+## Data Cleaning
