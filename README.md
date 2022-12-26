@@ -1,7 +1,7 @@
 # Chronic-Kidney-Disease-Prediction
 ## Abstract:
 Chronic kidney disease (CKD) is a condition characterized by progressive loss of kidney function over time. It describes a clinical entity that causes kidney damage and affects the general health of the human body. Improper diagnosis and treatment of the disease can eventually lead to endstage renal disease and ultimately lead to the patient’s death. Machine Learning (ML) techniques have acquired an important role in disease prediction and are a useful tool in the field of medical science. In the present research work, we aim to build efficient tools for predicting CKD occurrence, following an approach which exploits ML techniques. More specifically, first, we apply class balancing in order to tackle the non-uniform distribution of the instances in the two classes, then features ranking and analysis are performed, and finally, several ML models are trained and evaluated based on various performance metrics.
----
+
 ## Introduction
 The human body has two kidneys located at the back of the peritoneal cavity, which are vital organs necessary for its proper functioning. The main function of the kidneys is to regulate the balance of salt, water and other ions and trace elements in the human body, such as calcium, phosphorus, magnesium, potassium, chlorine and acids. At the same time, the kidneys secrete hormones such as erythropoietin, vitamin D and renin. More specifically, erythropoietin stimulates the production and maturation of red blood cells in the bone marrow, while vitamin D regulates calcium and phosphorus in the body, bone structure and many other actions. The kidneys are also the site of the action of hormones that are responsible for regulating blood pressure, fluid balance or bone metabolism and vascular calcifications. Finally, the kidneys eliminate all the useless products of metabolism, as well as drugs and other toxins that enter the body.
 
@@ -21,5 +21,30 @@ In the current research work, a Machine Learning-based approach will be presente
 * A features analysis, which includes three specific sub-steps: (i) numerical attributes statistical description, (ii) order of importance measurement by employing three different methods, and (iii) capturing nominal features frequency of occurrence in tabular form.
 * A comparative evaluation of various models’ performance is presented considering the most common metrics, such as Precision, Recall, F-Measure, Accuracy and AUC.
 * A performance evaluation is demonstrated, where all models demonstrated exceptionally high outcomes, with Rotation Forest achieving the highest results in all metrics, thus constituting the main suggestion of this analysis.
----
-# Dataset Description
+
+## Dataset Description
+  1. age --> Age (numerical) in years
+  2. bp --> Blood Pressure (numerical) in mm/Hg
+  3. sg --> Specific Gravity (nominal) - [1.005, 1.010, 1.015, 1.020, 1.025]
+  4. al --> Albumin (nominal) - [0, 1, 2, 3, 4, 5]
+  5. su --> Sugar (nominal) - [0, 1, 2, 3, 4, 5]
+  6. rbc --> Red Blood Cells - [normal, abnormal]
+  7. pc --> Pus Cell (nominal) - [normal, abnormal]
+  8. pcc --> Pus Cell Clumps (nominal) - [present, notpresent]
+  9. ba --> Bacteria (nominal) - [present, notpresent]
+  10. bgr --> Blood Glucose Normal (numerical) in mgs/dl
+  11. bu --> Blood Urea (numerical) in mgs/dl
+  12. sc --> Serum Creatinin (numerical) in mgs/dl
+  13. sod --> Sodium (numerical) in mEq/L
+  14. pot --> Potassium (numerical) in mEq/L
+  15. hemo --> Hemoglobin (numerical) in gms
+  16. pcv --> Packed Cell Volume (numerical)
+  17. wc --> White Blood Cell Count (numerical) in cells/cumm
+  18. rc --> Red Blood Cell Count (numerical) in millions/cmm
+  19. htn --> Hypertension (nominal) - [yes, no]
+  20. dm --> Diabetes Mellitus (nominal) - [yes, no]
+  21. cad --> Coronary Artery Disease (nominal) - [yes, no]
+  22. appet --> Appetite (nominal) - [good, poor]
+  23. pe --> Pedal Edema (nominal) - [yes, no]
+  24. ane --> Anemia (nominal) - [yes, no]
+  25. class --> Class (nominal) - [ckd, notckd]
