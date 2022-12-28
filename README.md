@@ -64,4 +64,3 @@ In the current research work, a Machine Learning-based approach will be presente
 6. Mapped the target column `class` --> {'ckd' : 0, 'notckd' : 1}
     * 0 --> chronic kidney, 1 -- > not a chronic kidney
 
-## EDA
